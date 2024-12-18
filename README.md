@@ -59,6 +59,8 @@
 
 ## 설치 방법
 
+[Anaconda](https://www.anaconda.com/)와 같은 가상환경 구축을 권장합니다.
+
 ### 1. 리포지토리 클론하기
 
 ```bash
@@ -73,8 +75,6 @@ pip install -r requirements.txt
 ```
 
 ## 코드 실행 방법
-
-- [Anaconda](https://www.anaconda.com/)와 같은 가상환경 구축을 권장합니다.
 
 ### 1. 입력 이미지 폴더 준비하기
 
