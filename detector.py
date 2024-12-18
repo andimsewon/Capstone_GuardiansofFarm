@@ -19,8 +19,8 @@ for cls_id, cls_name in enumerate(model.names):
         class_colors[cls_name] = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 
 # 폴더 내 모든 이미지 파일 가져오기
-input_folder = 'test1'  # 이미지 파일이 있는 폴더
-output_folder = 'test1_result'  # 결과 파일을 저장할 폴더
+input_folder = 'chocomint'  # 이미지 파일이 있는 폴더
+output_folder = 'chocomint_result'  # 결과 파일을 저장할 폴더
 os.makedirs(output_folder, exist_ok=True) 
 
 image_extensions = ['.png', '.jpg', '.jpeg']  # 이미지 확장자
