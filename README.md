@@ -72,27 +72,23 @@ cd Capstone_GuardiansofFarm
 pip install -r requirements.txt
 ```
 
-### 3. YOLO 모델 다운로드
-
-- `best.pt` 모델 파일을 프로젝트 디렉토리에 추가합니다.
-
 ## 코드 실행 방법
 
 ### 1. 입력 이미지 폴더 준비하기
 
-- 프로젝트 디렉토리 내에 `chocomint` 폴더를 생성하고 분석할 이미지 파일들을 해당 폴더에 넣습니다.
+- 프로젝트 디렉토리 내에 `chocomint` 폴더에 분석할 이미지 파일들을 해당 폴더에 넣습니다.
 
 ### 2. 결과 저장 폴더 준비하기
 
-- 실행 시 결과 이미지가 저장될 `chocomint_result` 폴더는 코드 실행 시 자동으로 생성됩니다.
+- 실행 시 결과 이미지가 저장될 `chocomint_result` 폴더가 코드 실행 시 자동으로 생성됩니다.
 
 ### 3. 코드 실행하기
 
-```bash
-python your_script.py
-```
+- 프로젝트 경로에서 아래 명령어를 실행합니다.
 
-- `your_script.py`는 프로젝트의 메인 스크립트 파일명으로 대체해야 합니다.
+```bash
+python detector.py
+```
 
 ## 결과 확인하기
 
