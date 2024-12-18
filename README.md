@@ -74,6 +74,8 @@ pip install -r requirements.txt
 
 ## 코드 실행 방법
 
+- [Anaconda](https://www.anaconda.com/)와 같은 가상환경 구축을 권장합니다.
+
 ### 1. 입력 이미지 폴더 준비하기
 
 - 프로젝트 디렉토리 내에 `chocomint` 폴더에 분석할 이미지 파일들을 해당 폴더에 넣습니다.
